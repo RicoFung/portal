@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<title>portal</title>
+<link rel="stylesheet" href="/static/res/bs/css/bootstrap.css"/>
+<link rel="stylesheet" href="/static/res/jquery/jquery-ui.css"/>
+<link rel="stylesheet" href="/static/res/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/static/res/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="/static/res/AdminLTE/dist/css/AdminLTE.min.css">
+<link rel="stylesheet" href="/static/res/AdminLTE/dist/css/skins/_all-skins.min.css">
+<script type="text/javascript" src="/static/res/jquery/jquery.js"></script>
+<script type="text/javascript" src="/static/res/jquery/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/static/res/bs/js/bootstrap.min.js"></script>
+</head>
+<!-- 3种 sidebar布局  -->
+<!-- 
+<body class="hold-transition skin-blue layout-boxed sidebar-mini">
+<body class="hold-transition skin-blue fixed sidebar-mini">
+ -->
+<body class="hold-transition skin-blue sidebar-collapse sidebar-mini">
+<!--/ 3种 sidebar布局  -->
+
+<div class="wrapper">
+	<header class="main-header">
+		<!-- Logo -->
+		<a href="javascript:void(0);return false;" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
+			<span class="logo-mini">Portal</span> <!-- logo for regular state and mobile devices -->
+			<span class="logo-lg"><b>Portal</b></span>
+		</a>
+		<!-- 顶部导航栏 -->
+		<nav class="navbar navbar-static-top">
+			<!-- 左侧栏切换按钮-->
+			<a href="javascript:void(0);return false;" class="sidebar-toggle" data-toggle="offcanvas" role="button"></a>
+			<!-- 导航下拉菜单 -->
+			<div class="navbar-custom-menu">
+				<ul class="nav navbar-nav">
+					<!-- 右侧栏切换按钮 -->
+					<li><a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- Content Wrapper. Contains page content -->
+	<div class="content-wrapper">
+		<!-- Content Header (Page header) -->
+		<section class="content-header">
+			<h1>
+				 门户导航
+				 <small>Version 2.0</small>
+			</h1>
+		</section>
+		<!-- Main content -->
+		<section class="content">
+			<!-- Info boxes -->
+			<div class="row">
+				<!-- 统一应用后台管理 -->
+				<a href="http://localhost:8686/sys">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+					    <div class="info-box">
+							<span class="info-box-icon bg-aqua"><i class="fa fa-cogs"></i></span>
+							<div class="info-box-content">
+								<span class="info-box-text">SYS</span>
+								<span class="info-box-number">统一应用后台管理</span>
+							</div>
+						</div>
+					</div>
+				</a>
+				<!-- 折纸APP后台管理 -->
+				<a href="http://localhost:8787/origami">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="info-box">
+							<span class="info-box-icon bg-red"><i class="fa fa-paper-plane-o"></i></span>
+							<div class="info-box-content">
+								<span class="info-box-text">ORIGAMI</span>
+								<span class="info-box-number">折纸APP后台管理</span>
+							</div>
+						</div>
+					</div>
+				</a>
+			
+				<!-- fix for small devices only -->
+				<div class="clearfix visible-sm-block"></div>
+				<!-- 报表系统 -->
+				<a href="#">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="info-box">
+						    <span class="info-box-icon bg-green"><i class="fa fa-bar-chart-o"></i></span>
+						    <div class="info-box-content">
+							      <span class="info-box-text">REPORT</span>
+							      <span class="info-box-number">报表系统</span>
+						    </div>
+						</div>
+					</div>
+				</a>
+				<!-- 未定义 -->
+				<a href="#">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="info-box">
+							<span class="info-box-icon bg-yellow"><i class="fa fa-file-o"></i></span>
+							<div class="info-box-content">
+								<span class="info-box-text">Not defined</span>
+								<span class="info-box-number">未定义</span>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- /.row -->
+		</section>
+	</div>
+	
+	<!-- 底部栏 -->
+	<footer class="main-footer">
+		<div class="pull-right hidden-xs"><b>Version</b> 2.0.0</div>
+		<strong>Copyright &copy; 2016-2017 <a href="https://github.com/RicoFung" target="blank">RicoFung GitHub</a>.</strong> All rights reserved.
+	</footer>
+	<!-- 右侧栏 -->
+	<aside class="control-sidebar control-sidebar-dark">
+		<!-- Create the tabs -->
+		<ul class="nav nav-tabs nav-justified control-sidebar-tabs"></ul>
+		<!-- Tab panes -->
+		<div class="tab-content"></div>
+	</aside>
+	<!-- 右侧栏背景 -->
+	<div class="control-sidebar-bg"></div>
+</div>
+<!-- AdminLTE App -->
+<script src="/static/res/AdminLTE/dist/js/app.min.js"></script>
+<!-- Slimscroll -->
+<script src="/static/res/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="/static/res/AdminLTE/plugins/fastclick/fastclick.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="/static/res/AdminLTE/dist/js/demo.js"></script>
+</body>
+</html>
